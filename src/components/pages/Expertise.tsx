@@ -1,5 +1,5 @@
 import React from 'react';
-import StackComponent from "components/StackComponent";
+import ExpertiseCard from "components/ExpertiseCard";
 
 interface ExpertiseData {
   title:string,
@@ -44,8 +44,9 @@ export default class Expertise extends React.Component<Props,State>{
                 <h1>My Expertise</h1>
                 <div className="expertise-grid">
                 {this.expertise.map((stack, index) => (
-                    <StackComponent
+                    <ExpertiseCard
                     key={index}
+                    index={index}
                     title={stack.title}
                     content={stack.content}
                     icon={stack.icon}/>
