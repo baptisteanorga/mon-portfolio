@@ -1,0 +1,16 @@
+.expertise {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois lignes égales */
+    grid-gap: 20px;
+  }
+  
+  .expertise-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }

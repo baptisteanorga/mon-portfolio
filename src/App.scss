@@ -1,0 +1,15 @@
+$primary-color: #008458;
+$secondary-color:#eeddd2;
+$font-color:#111100;
+$font-color2:#b73535;
+
+.App {
+    background-color: $secondary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $primary-color;
+  }
