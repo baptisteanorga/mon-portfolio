@@ -14,16 +14,14 @@ export default class App extends React.Component{
     public render(): React.ReactNode {
         return (
             <div className="App">
-                    <NavBar/>
-                    <div>
-                        <Routes>
-                            <Route path="/" element={<Home/>} />
-                            <Route path="/about" element={<About/>} />
-                            <Route path="/projects" element={<Projects/>} />
-                            <Route path="/expertise" element={<Expertise/>} />
-                            <Route path="/contact" element={<Contact/>} />
-                        </Routes>
-                    </div>
+                    <NavBar/>      
+                    <Routes>
+                        <Route path="/" element={<Home/>} />
+                        <Route path="/about" element={<About/>} />
+                        <Route path="/projects" element={<Projects/>} />
+                        <Route path="/expertise" element={<Expertise/>} />
+                        <Route path="/contact" element={<Contact/>} />
+                    </Routes>     
             </div>
         );
     }

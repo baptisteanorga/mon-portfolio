@@ -1,15 +1,30 @@
-$primary-color: #008458;
-$secondary-color:#fffcfa;
-$font-color:#111100;
-$font-color2:#b73535;
+$primary-color: #f9f9f9;
+$secondary-color:#b7b7b7;
+$font-color:#1b1b1b;
+$font-color2:#e93891;
+$blue-color:rgb(45, 51, 172);
 
 .App {
-    background-color: $secondary-color;
+    background-color:#ffffff;
     min-height: 100vh;
+    padding-top: 60px; // - navbarHeight
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: $primary-color;
+    color: $font-color;
+  }
+
+  a.button{
+    border-radius: 3px;
+    padding: 12px;
+    color:$primary-color;
+    background-color:$blue-color;
+    text-decoration: none;
+    
+    &:hover{
+      background-color:rgb(17, 25, 121);
+      color:$font-color2;
+      transition: 0.5s;
+    }
   }
