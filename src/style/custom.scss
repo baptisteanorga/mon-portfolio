@@ -88,7 +88,10 @@ div.HomeContainer{
     color:$primary-color;
     h1{
       font-weight:900;
-      font-size: 3.5rem;
+      font-size: 5rem;
+    }
+    p{
+      font-size: 2rem;
     }
   
   }
@@ -125,5 +128,21 @@ div.ContactContainer{
     background-size: cover;
     background-position: center;
     filter:blur(1.5px) brightness(50%);
+  }
+}
+
+/** About */
+div.AboutContainer{
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  color:$primary-color;
+
+  div.text-container{width: 700px;}
+
+  img{
+    margin-left: 70px;
+    width: 400px;
+    border-radius: 50%;
   }
 }
