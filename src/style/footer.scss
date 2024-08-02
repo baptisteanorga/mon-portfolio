@@ -1,0 +1,59 @@
+@import "./../App.scss";
+
+// Footer
+.footer {
+    background-color: $blue-color;
+    color: #fff;
+    padding: 2rem 0;
+  
+    h5 {
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      color: #ccc;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 0.5rem;
+  
+        a {
+          color: #ccc;
+          text-decoration: none;
+  
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  
+    .social-icons {
+      li {
+        display: inline-block;
+        margin-right: 1rem;
+  
+        a {
+          color: #ccc;
+  
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  
+    .text-center {
+      margin-top: 1rem;
+  
+      p {
+        color: #ccc;
+        margin: 0;
+      }
+    }
+  }

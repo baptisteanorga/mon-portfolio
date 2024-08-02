@@ -16,9 +16,9 @@ export default class SkillCard extends React.Component<Props>{
     public render(): React.ReactNode {
         return (
             <>
-                <div className="col-2 skillContainer d-flex flex-column align-items-center">
+                <div className="col-1 skillContainer d-flex flex-column align-items-center">
                         <img src={this.props.icon} alt={this.props.title} />
-                        <p className='fw-light fs-6 text-center'>
+                        <p className='fw-light fs-6'>
                             {this.props.title}
                         </p>
                 </div>

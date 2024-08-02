@@ -98,6 +98,7 @@ export default class Expertise extends React.Component<Props,State>{
     public render(): React.ReactNode {
         return (
             <div className='expertise'>
+              <section>
                 <h1 className='text-center'>My Expertise</h1>
                 <div className="expertise-grid">
                 {this.expertise.map((stack, index) => (
@@ -119,6 +120,7 @@ export default class Expertise extends React.Component<Props,State>{
                     />
                   ))}
                 </div>
+              </section>
             </div>
         );
     }

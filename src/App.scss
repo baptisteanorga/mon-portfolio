@@ -5,13 +5,10 @@ $font-color2:#e93891;
 $blue-color:rgb(45, 51, 172);
 
 .App {
-    background-color:#606060;
+    // background-color:#2488bd;
     min-height: 100vh;
+    width: 100%;
     padding-top: 60px; // - navbarHeight
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: $font-color;
   }
 

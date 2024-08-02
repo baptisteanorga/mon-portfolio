@@ -13,6 +13,9 @@
     padding: 1rem;
     background-color: $blue-color;
     z-index: 1000;
+    font-size: 18px;
+    font-weight: 500;
+
     .container {
         display: flex;
         align-items: center;
@@ -24,11 +27,8 @@
           margin-right: 1rem;
     
           a {
-            text-decoration: none;
             color: $primary-color;
-            font-size: 2vmin;
-            font-weight: 500;
-
+            text-decoration: none;
         
             &:hover {
                 color: $font-color2;
@@ -44,6 +44,10 @@
         }
     
         .menu {
+            i {
+                display: none;
+                color:white;
+            }
             ul {
                 display: flex;
                 list-style: none;
@@ -55,8 +59,6 @@
                     a {
                     text-decoration: none;
                     color: $primary-color;
-                    font-size: 2vmin;
-                    font-weight: 500;
 
                         &.active{
                             color:$font-color2;
@@ -76,3 +78,98 @@
     }
 }
 
+
+@media only screen and (min-width: 400px) and (max-width:1400px) {
+    
+}
+
+
+@media only screen and (min-width: 901px) and (max-width:1400px) {
+
+}
+  
+@media only screen and (min-width: 400px) and (max-width:900px) {
+    .navbar {
+        .container {
+            .myself {
+                a.text {
+                    display: none;
+                }
+            }
+            .menu{
+                i{
+                    display: block;
+                }
+                ul {
+                    display: none;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    &.active {
+                        display: block;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        width: 100%;
+                        background-color: #182776;
+                        li {
+                            padding: 1rem;
+                            border-bottom: 1px solid #ccc;
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                            a {
+                                &:hover {
+                                color: $font-color2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width:630px) {
+    .navbar {
+        .container {
+            .myself {
+                a.text {
+                    display: none;
+                }
+            }
+            .menu{
+                i{
+                    display: block;
+                }
+                ul {
+                    display: none;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    &.active {
+                        display: block;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        width: 100%;
+                        background-color: #182776;
+                        li {
+                            padding: 1rem;
+                            border-bottom: 1px solid #ccc;
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                            a {
+                                &:hover {
+                                color: $font-color2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
