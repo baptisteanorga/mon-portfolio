@@ -51,7 +51,7 @@ export default class Footer extends React.Component<Props,State>{
                             <h5>My links</h5>
                             <ul className="list-unstyled social-icons">
                                 <li><a href="https://github.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
-                                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                                <li><a href="https://www.linkedin.com/in/baptiste-anorga-b4971b157/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                             </ul>
                         </Col>
                         </Row>
